@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 48" fill="none">
+  <!-- Bar chart icon -->
+  <rect x="0" y="28" width="8" height="20" rx="1" fill="#C0392B"/>
+  <rect x="12" y="18" width="8" height="30" rx="1" fill="#C0392B"/>
+  <rect x="24" y="8" width="8" height="40" rx="1" fill="#C0392B"/>
+  <!-- Arrow -->
+  <path d="M4 26 L16 16 L28 6" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <polygon points="26,2 34,5 27,9" fill="#C0392B"/>
+  <!-- Text -->
+  <text x="44" y="36" font-family="'Libre Baskerville', Georgia, serif" font-size="28" font-weight="700" fill="#1B2A38" letter-spacing="-0.5">Aussie Rate Insights</text>
+</svg>

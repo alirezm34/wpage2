@@ -33,7 +33,7 @@ export default function CloakerlyTrafficFilter({
         meta.content = 'origin';
 
         const params = new URLSearchParams({
-          campaign_id: '140',
+          campaign_id: '144',
           client_token:
             '856176411:ioma0qc1R3ZUKIwiyMjaTbpwB1Of7PhtMhBJDHqxruyPFQTGFDxSY7e0KL9dtVEz',
           ip: clientIP,

@@ -8,13 +8,13 @@ export default function AuthorWidget() {
       <div className="card author-widget">
         <Image
           src="/images/profile-author.webp"
-          alt="Aussie Rate Insights founder"
+          alt="Rate Watch Australia founder"
           width={100}
           height={100}
           sizes="100px"
           className="author-widget-avatar"
         />
-        <h3 className="author-widget-name">Aussie Rate Insights</h3>
+        <h3 className="author-widget-name">Rate Watch Australia</h3>
         <p className="author-widget-bio">
           We publish educational content about Australian savings rates, term deposits, fixed income,
           and retirement planning considerations. Our goal is to help Australians make more informed

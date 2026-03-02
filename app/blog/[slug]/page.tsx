@@ -56,17 +56,17 @@ export default async function BlogPost({ params }: Props) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.metaDescription,
-    image: `https://aussierateinsights.com${post.image}`,
+    image: `https://ratewatchaus.com${post.image}`,
     datePublished: post.date,
     author: {
       '@type': 'Organization',
-      name: 'Aussie Rate Insights',
-      url: 'https://aussierateinsights.com',
+      name: 'Rate Watch Australia',
+      url: 'https://ratewatchaus.com',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Aussie Rate Insights',
-      url: 'https://aussierateinsights.com',
+      name: 'Rate Watch Australia',
+      url: 'https://ratewatchaus.com',
     },
     keywords: post.keywords.join(', '),
   };

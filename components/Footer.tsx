@@ -25,7 +25,7 @@ export default function Footer() {
             <Link href="/" style={{ display: 'inline-block', marginBottom: 10, textDecoration: 'none' }}>
               <Image
                 src="/images/logo.svg"
-                alt="Aussie Rate Insights"
+                alt="Rate Watch Australia"
                 width={200}
                 height={32}
                 sizes="200px"
@@ -126,7 +126,7 @@ export default function Footer() {
             color: 'var(--text-light)',
           }}
         >
-          &copy; {new Date().getFullYear()} Aussie Rate Insights. All rights reserved.
+          &copy; {new Date().getFullYear()} Rate Watch Australia. All rights reserved.
         </div>
       </div>
     </footer>

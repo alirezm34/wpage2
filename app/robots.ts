@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://aussierateinsights.com/sitemap.xml',
+    sitemap: 'https://ratewatchaus.com/sitemap.xml',
   };
 }

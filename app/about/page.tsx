@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'About Aussie Rate Insights — educational content on Australian term deposits, savings rates, fixed income, bank comparisons, RBA rate decisions, superannuation, and retirement planning.',
+    'About Rate Watch Australia — educational content on Australian term deposits, savings rates, fixed income, bank comparisons, RBA rate decisions, superannuation, and retirement planning.',
   keywords: [
     'term deposits',
     'fixed income',
@@ -35,7 +35,7 @@ export default function AboutPage() {
             letterSpacing: '-0.02em',
           }}
         >
-          About Aussie Rate Insights
+          About Rate Watch Australia
         </h1>
 
         <p style={{ fontSize: 13, color: 'var(--text-light)', margin: '0 0 32px' }}>
@@ -50,7 +50,7 @@ export default function AboutPage() {
           }}
         >
           <p style={{ margin: '0 0 18px' }}>
-            <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights</strong> publishes
+            <strong style={{ color: 'var(--text)' }}>Rate Watch Australia</strong> publishes
             general educational content about Australian savings rates, term deposits, fixed income,
             and common retirement planning considerations. Our goal is to help everyday Australians
             understand the landscape of interest rates, RBA decisions, and how these factors can

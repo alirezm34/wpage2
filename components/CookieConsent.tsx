@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const COOKIE_KEY = 'ari_cookie_consent';
+const COOKIE_KEY = 'rwa_cookie_consent';
 
 export default function CookieConsent() {
   const [visible, setVisible] = useState(false);

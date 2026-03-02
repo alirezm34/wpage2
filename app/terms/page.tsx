@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Terms of Use',
-  description: 'Terms of Use for the Aussie Rate Insights website.',
+  description: 'Terms of Use for the Rate Watch Australia website.',
 };
 
 const pStyle: React.CSSProperties = {
@@ -29,11 +29,11 @@ const sections = [
     title: '1. General information only',
     content: (
       <p style={pStyle}>
-        aussierateinsights.com provides general information about Australian savings rates, term
+        ratewatchaus.com provides general information about Australian savings rates, term
         deposits, fixed income, and related topics. The content is{' '}
         <strong>not personal financial advice</strong> and does not consider your objectives,
         financial situation, or needs. You should seek independent professional advice before acting
-        on information from aussierateinsights.com.
+        on information from ratewatchaus.com.
       </p>
     ),
   },
@@ -61,7 +61,7 @@ const sections = [
     title: '4. Third-party services',
     content: (
       <p style={pStyle}>
-        aussierateinsights.com may rely on third-party hosting, analytics, advertising, or
+        ratewatchaus.com may rely on third-party hosting, analytics, advertising, or
         measurement services. Your use of those services may also be subject to their terms and
         policies.
       </p>
@@ -85,7 +85,7 @@ const sections = [
     title: '6. Intellectual property',
     content: (
       <p style={pStyle}>
-        All content, branding, and design on aussierateinsights.com are owned by Aussie Rate
+        All content, branding, and design on ratewatchaus.com are owned by Aussie Rate
         Insights Pty Ltd or licensed to us. You may view and print pages for personal use only. You
         must not reproduce or distribute content for commercial purposes without permission.
       </p>
@@ -95,8 +95,8 @@ const sections = [
     title: '7. Changes',
     content: (
       <p style={pStyle}>
-        Aussie Rate Insights Pty Ltd may update these Terms at any time. Continued use of
-        aussierateinsights.com after changes means you accept the updated Terms.
+        Rate Watch Australia Pty Ltd may update these Terms at any time. Continued use of
+        ratewatchaus.com after changes means you accept the updated Terms.
       </p>
     ),
   },
@@ -114,7 +114,7 @@ const sections = [
     content: (
       <p style={pStyle}>
         <strong>Email:</strong>{' '}
-        <a href="mailto:info@aussierateinsights.com">info@aussierateinsights.com</a>
+        <a href="mailto:info@ratewatchaus.com">info@ratewatchaus.com</a>
         <br />
         <strong>Phone:</strong> 02 4455 5534
         <br />
@@ -172,13 +172,13 @@ export default function TermsPage() {
         <div className="card-muted" style={{ marginBottom: 32 }}>
           <p style={{ margin: '0 0 10px', fontSize: 14, color: 'var(--text-muted)' }}>
             These Terms of Use govern your access to and use of{' '}
-            <strong style={{ color: 'var(--text)' }}>aussierateinsights.com</strong> (&ldquo;Website&rdquo;),
-            operated by <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights Pty Ltd</strong>.
+            <strong style={{ color: 'var(--text)' }}>ratewatchaus.com</strong> (&ldquo;Website&rdquo;),
+            operated by <strong style={{ color: 'var(--text)' }}>Rate Watch Australia Pty Ltd</strong>.
             By using the Website, you agree to these Terms.
           </p>
           <p style={{ margin: 0, fontSize: 13, color: 'var(--text-light)' }}>
             If you have questions, contact{' '}
-            <a href="mailto:info@aussierateinsights.com">info@aussierateinsights.com</a> or 02 4455 5534.
+            <a href="mailto:info@ratewatchaus.com">info@ratewatchaus.com</a> or 02 4455 5534.
           </p>
         </div>
 

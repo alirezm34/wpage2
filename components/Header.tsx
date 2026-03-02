@@ -22,7 +22,7 @@ export default function Header() {
           <Link href="/" className="masthead-brand">
             <Image
               src="/images/logo.svg"
-              alt="Aussie Rate Insights"
+              alt="Rate Watch Australia"
               width={260}
               height={42}
               sizes="260px"

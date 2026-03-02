@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllSlugs } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://aussierateinsights.com';
+  const baseUrl = 'https://ratewatchaus.com';
   const now = new Date();
 
   const blogEntries = getAllSlugs().map((slug) => ({

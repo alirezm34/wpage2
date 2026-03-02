@@ -10,7 +10,7 @@ import ViewContentTracker from '@/components/ViewContentTracker';
 import { posts, getPostsByCategory } from '@/lib/posts';
 
 export const metadata: Metadata = {
-  title: 'Term Deposits & Fixed Income in Australia | Aussie Rate Insights',
+  title: 'Term Deposits & Fixed Income in Australia | Rate Watch Australia',
   description:
     'Compare Australian term deposits, fixed income products, and savings rates across 40+ banks. Covering RBA rate cuts, bank comparisons, superannuation, government guarantee ($250K protection), and retirement planning strategies.',
   keywords: [

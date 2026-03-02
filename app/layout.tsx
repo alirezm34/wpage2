@@ -21,10 +21,10 @@ const bodyFont = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aussierateinsights.com'),
+  metadataBase: new URL('https://ratewatchaus.com'),
   title: {
-    default: 'Term Deposits & Fixed Income in Australia | Aussie Rate Insights',
-    template: '%s | Aussie Rate Insights',
+    default: 'Term Deposits & Fixed Income in Australia | Rate Watch Australia',
+    template: '%s | Rate Watch Australia',
   },
   description:
     'Australian finance blog covering term deposits, fixed income, savings rates, RBA interest rate decisions, bank comparisons, and retirement planning.',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
-    siteName: 'Aussie Rate Insights',
+    siteName: 'Rate Watch Australia',
     locale: 'en_AU',
     type: 'website',
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Aussie Rate Insights — Term Deposits, Fixed Income, Savings Rates in Australia',
+        alt: 'Rate Watch Australia — Term Deposits, Fixed Income, Savings Rates in Australia',
       },
     ],
   },

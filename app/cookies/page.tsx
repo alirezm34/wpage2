@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy',
-  description: 'Cookie Policy for aussierateinsights.com — how we use cookies and similar technologies.',
+  description: 'Cookie Policy for ratewatchaus.com — how we use cookies and similar technologies.',
 };
 
 const pStyle: React.CSSProperties = {
@@ -37,11 +37,11 @@ const sections = [
     ),
   },
   {
-    title: '2. How aussierateinsights.com uses cookies',
+    title: '2. How ratewatchaus.com uses cookies',
     content: (
       <>
         <p style={pStyle}>
-          When you visit aussierateinsights.com, we may place cookies on your device for the
+          When you visit ratewatchaus.com, we may place cookies on your device for the
           following purposes:
         </p>
         <ul style={ulStyle}>
@@ -52,12 +52,12 @@ const sections = [
           </li>
           <li>
             <strong>Analytics cookies:</strong> Help us understand how visitors interact with
-            aussierateinsights.com by collecting information about pages visited, time spent, and
+            ratewatchaus.com by collecting information about pages visited, time spent, and
             navigation patterns. This data is aggregated and anonymised.
           </li>
           <li>
             <strong>Advertising and measurement cookies:</strong> Used to measure the effectiveness
-            of advertising campaigns and to understand how users arrive at aussierateinsights.com.
+            of advertising campaigns and to understand how users arrive at ratewatchaus.com.
             These may include third-party pixels (such as the Meta Pixel) that collect data about
             page views and interactions.
           </li>
@@ -69,10 +69,10 @@ const sections = [
     title: '3. Cookies we use',
     content: (
       <>
-        <p style={pStyle}>The following types of cookies may be set when you visit aussierateinsights.com:</p>
+        <p style={pStyle}>The following types of cookies may be set when you visit ratewatchaus.com:</p>
         <ul style={ulStyle}>
           <li>
-            <strong>ari_cookie_consent</strong> — Stores your cookie consent preference (essential,
+            <strong>rwa_cookie_consent</strong> — Stores your cookie consent preference (essential,
             first-party, persistent).
           </li>
           <li>
@@ -92,13 +92,13 @@ const sections = [
     content: (
       <>
         <p style={pStyle}>
-          Some cookies on aussierateinsights.com are set by third-party services we use, including
+          Some cookies on ratewatchaus.com are set by third-party services we use, including
           analytics and advertising platforms. These third parties may collect information about your
           online activity across different websites. We do not control these third-party cookies and
           their use is governed by the respective third party&apos;s privacy policy.
         </p>
         <p style={pStyle}>
-          Third-party services that may set cookies on aussierateinsights.com include Meta
+          Third-party services that may set cookies on ratewatchaus.com include Meta
           (Facebook) for advertising measurement.
         </p>
       </>
@@ -116,7 +116,7 @@ const sections = [
             documentation for instructions.
           </li>
           <li>
-            <strong>Cookie consent:</strong> When you first visit aussierateinsights.com, you are
+            <strong>Cookie consent:</strong> When you first visit ratewatchaus.com, you are
             presented with a cookie consent notice. You may accept or decline non-essential cookies
             at that time.
           </li>
@@ -129,7 +129,7 @@ const sections = [
           </li>
         </ul>
         <p style={pStyle}>
-          Please note that disabling cookies may affect the functionality of aussierateinsights.com
+          Please note that disabling cookies may affect the functionality of ratewatchaus.com
           and your experience on the site.
         </p>
       </>
@@ -141,7 +141,7 @@ const sections = [
       <p style={pStyle}>
         We may update this Cookie Policy from time to time to reflect changes in the cookies we use
         or for other operational, legal, or regulatory reasons. We encourage you to review this page
-        periodically. Continued use of aussierateinsights.com after changes constitutes acceptance of
+        periodically. Continued use of ratewatchaus.com after changes constitutes acceptance of
         the updated policy.
       </p>
     ),
@@ -150,11 +150,11 @@ const sections = [
     title: '7. Contact',
     content: (
       <p style={pStyle}>
-        If you have questions about our use of cookies on aussierateinsights.com, contact us:
+        If you have questions about our use of cookies on ratewatchaus.com, contact us:
         <br />
         <br />
         <strong>Email:</strong>{' '}
-        <a href="mailto:info@aussierateinsights.com">info@aussierateinsights.com</a>
+        <a href="mailto:info@ratewatchaus.com">info@ratewatchaus.com</a>
         <br />
         <strong>Phone:</strong> 02 4455 5534
         <br />
@@ -211,9 +211,9 @@ export default function CookiesPage() {
 
         <div className="card-muted" style={{ marginBottom: 32 }}>
           <p style={{ margin: '0 0 10px', fontSize: 14, color: 'var(--text-muted)' }}>
-            This Cookie Policy explains how <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights Pty Ltd</strong>{' '}
+            This Cookie Policy explains how <strong style={{ color: 'var(--text)' }}>Rate Watch Australia Pty Ltd</strong>{' '}
             (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) uses cookies and similar
-            technologies on <strong style={{ color: 'var(--text)' }}>aussierateinsights.com</strong>.
+            technologies on <strong style={{ color: 'var(--text)' }}>ratewatchaus.com</strong>.
           </p>
           <p style={{ margin: 0, fontSize: 13, color: 'var(--text-light)' }}>
             For more details on how we handle personal information, see our{' '}

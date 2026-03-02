@@ -14,7 +14,7 @@ No test suite is configured.
 
 ## Architecture
 
-**Aussie Rate Insights** — a static informational site about Australian term deposits, fixed income, and savings rates. Deployed on Vercel.
+**Rate Watch Australia** — a static informational site about Australian term deposits, fixed income, and savings rates. Deployed on Vercel.
 
 **Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS v4
 
@@ -28,7 +28,7 @@ No test suite is configured.
 - `Header` — sticky nav with anchor links (`/#guide`, `/#insights`, `/#about`, `/#contact`)
 - `Footer` — disclaimer, Privacy/Terms links
 - `NewsletterForm` — client component; currently only client-side state (no backend integration)
-- `CookieConsent` — client component; stores acceptance in `localStorage` under key `ari_cookie_consent`
+- `CookieConsent` — client component; stores acceptance in `localStorage` under key `rwa_cookie_consent`
 
 ## Styling Conventions
 
@@ -48,4 +48,4 @@ Styling uses a hybrid approach — **do not introduce a third approach**:
 
 ## SEO
 
-`metadataBase` is `https://aussierateinsights.com`. All OG/Twitter metadata, sitemap, and robots config target this domain. Update `sitemap.ts` when adding new pages.
+`metadataBase` is `https://ratewatchaus.com`. All OG/Twitter metadata, sitemap, and robots config target this domain. Update `sitemap.ts` when adding new pages.

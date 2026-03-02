@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Get in touch with Aussie Rate Insights for general questions about term deposits, savings rates, and fixed income in Australia.',
+    'Get in touch with Rate Watch Australia for general questions about term deposits, savings rates, and fixed income in Australia.',
 };
 
 export default function ContactPage() {
@@ -42,7 +42,7 @@ export default function ContactPage() {
             <div>
               <div className="section-label" style={{ marginBottom: 6 }}>Email</div>
               <a
-                href="mailto:info@aussierateinsights.com"
+                href="mailto:info@ratewatchaus.com"
                 style={{
                   fontSize: 16,
                   fontWeight: 600,
@@ -50,7 +50,7 @@ export default function ContactPage() {
                   textDecoration: 'none',
                 }}
               >
-                info@aussierateinsights.com
+                info@ratewatchaus.com
               </a>
             </div>
 

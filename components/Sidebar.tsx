@@ -85,7 +85,7 @@ export default function Sidebar({ activeCategory, onCategoryClick }: SidebarProp
           About
         </h3>
         <p style={{ margin: '0 0 12px', fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.65 }}>
-          Aussie Rate Insights publishes educational content about Australian savings rates, term
+          Rate Watch Australia publishes educational content about Australian savings rates, term
           deposits, fixed income, and retirement planning considerations.
         </p>
         <Link
